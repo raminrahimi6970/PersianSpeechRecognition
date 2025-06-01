@@ -226,7 +226,7 @@ class SpeechRecognitionApp:
                 self.status_label.config(text=f"Error saving file: {str(e)}")
 
 if __name__ == "__main__":
-    # Initialize speech recognition
+    # Initialize speech recognition test
     speech_rec = AppSpeechRecognition()
     # Create UI
     root = tk.Tk()
